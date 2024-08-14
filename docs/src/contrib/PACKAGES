@@ -6,3 +6,10 @@ Suggests: git2r, knitr, rmarkdown
 License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
+
+Package: spatialEpisim.data
+Version: 0.1.0
+Suggests: readxl, terra
+License: GPL (>= 3)
+MD5sum: 53333ec88d84d7196cea2f9d5007ba39
+NeedsCompilation: no
