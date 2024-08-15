@@ -7,6 +7,13 @@ License: GPL (>= 2)
 MD5sum: 2e7107c8bc567c3e7d1aedbd7aaeb396
 NeedsCompilation: no
 
+Package: reactcharteditor
+Version: 0.1.0
+Imports: htmltools, reactR
+License: GPL (>= 3)
+MD5sum: 3d77bec06b16a40d9df0b2079748d0bd
+NeedsCompilation: no
+
 Package: spatialEpisim.data
 Version: 0.1.0
 Suggests: readxl, terra
@@ -17,8 +24,8 @@ NeedsCompilation: no
 Package: spatialEpisim.foundation
 Version: 0.0.0.9000
 Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
-         stats, terra, tibble, tidyr, utils
+Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr, stats, terra, tibble,
+           tidyr, utils
 Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown
 License: GPL (>= 3)
 MD5sum: 978f205d98e61b218ef5b0d0466b66e7
