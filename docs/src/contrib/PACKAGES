@@ -24,8 +24,8 @@ NeedsCompilation: no
 Package: spatialEpisim.foundation
 Version: 0.0.0.9000
 Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr, stats, terra, tibble,
-           tidyr, utils
+Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
+         stats, terra, tibble, tidyr, utils
 Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown
 License: GPL (>= 3)
 MD5sum: 978f205d98e61b218ef5b0d0466b66e7
@@ -34,8 +34,8 @@ NeedsCompilation: no
 Package: spatialEpisim.foundation
 Version: 0.0.0.9001
 Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr, stats, terra, tibble,
-           tidyr, utils
+Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
+         stats, terra, tibble, tidyr, utils
 Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown
 License: GPL (>= 3)
 MD5sum: c98fce7ffdc1286fcf9ff8f4cb99fa85
@@ -44,9 +44,19 @@ NeedsCompilation: no
 Package: spatialEpisim.foundation
 Version: 0.0.0.9002
 Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr, stats, terra, tibble,
-           tidyr, utils
+Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
+         stats, terra, tibble, tidyr, utils
 Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown
 License: GPL (>= 3)
 MD5sum: 87e5c22c8dcfa350988c86c6031d18fc
+NeedsCompilation: no
+
+Package: spatialEpisim.foundation
+Version: 0.0.1
+Depends: R (>= 2.10)
+Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
+         stats, terra, tibble, tidyr, utils
+Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown, raster, sp
+License: GPL (>= 3)
+MD5sum: ed6dd814b3ed94f04bdb2993f0f02f83
 NeedsCompilation: no
