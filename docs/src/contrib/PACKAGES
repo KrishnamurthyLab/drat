@@ -14,6 +14,16 @@ License: GPL (>= 3)
 MD5sum: 3d77bec06b16a40d9df0b2079748d0bd
 NeedsCompilation: no
 
+Package: shinyjs
+Version: 2.1.1
+Depends: R (>= 3.1.0)
+Imports: jsonlite, rlang, shiny (>= 1.0.0), utils
+Suggests: htmltools (>= 0.3.5), knitr (>= 1.7), rmarkdown, shinyAce, shinydisconnect, shinytest2,
+           testthat (>= 0.9.1)
+License: MIT + file LICENSE
+MD5sum: 232944662fc50388697d39a0c6fa61d1
+NeedsCompilation: no
+
 Package: spatialEpisim.data
 Version: 0.1.0
 Suggests: readxl, terra
@@ -22,70 +32,10 @@ MD5sum: 53333ec88d84d7196cea2f9d5007ba39
 NeedsCompilation: no
 
 Package: spatialEpisim.foundation
-Version: 0.0.0.9000
-Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
-         stats, terra, tibble, tidyr, utils
-Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown
-License: GPL (>= 3)
-MD5sum: 978f205d98e61b218ef5b0d0466b66e7
-NeedsCompilation: no
-
-Package: spatialEpisim.foundation
-Version: 0.0.0.9001
-Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
-         stats, terra, tibble, tidyr, utils
-Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown
-License: GPL (>= 3)
-MD5sum: c98fce7ffdc1286fcf9ff8f4cb99fa85
-NeedsCompilation: no
-
-Package: spatialEpisim.foundation
-Version: 0.0.0.9002
-Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
-         stats, terra, tibble, tidyr, utils
-Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown
-License: GPL (>= 3)
-MD5sum: 87e5c22c8dcfa350988c86c6031d18fc
-NeedsCompilation: no
-
-Package: spatialEpisim.foundation
-Version: 0.0.1
-Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
-         stats, terra, tibble, tidyr, utils
-Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown, raster, sp
-License: GPL (>= 3)
-MD5sum: ed6dd814b3ed94f04bdb2993f0f02f83
-NeedsCompilation: no
-
-Package: spatialEpisim.foundation
-Version: 0.0.2
-Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
-         stats, terra, tibble, tidyr, utils
-Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown, raster, sp
-License: GPL (>= 3)
-MD5sum: 73520a219c7f60d9ff31a54cc2f3fce6
-NeedsCompilation: no
-
-Package: spatialEpisim.foundation
-Version: 0.1.0
-Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
-         stats, terra, tibble, tidyr, utils
-Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown, raster, sp
-License: GPL (>= 3)
-MD5sum: fb14eb98654b9c6c504fc7a2e40c901a
-NeedsCompilation: no
-
-Package: spatialEpisim.foundation
 Version: 0.2.0
 Depends: R (>= 2.10)
-Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr,
-         stats, terra, tibble, tidyr, utils
+Imports: countrycode, dplyr, geodata, httr2, lubridate, magrittr, Matrix, purrr, stats, terra, tibble,
+           tidyr, utils
 Suggests: cli, readxl, lattice, testthat (>= 3.0.0), knitr, rmarkdown, raster, sp
 License: GPL (>= 3)
 MD5sum: 0c64044357d069d4fa38505566116589
